@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  authservice:
+    build: ./AuthService/AuthService
+    ports:
+      - "5230:5230"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5230
+
+  coreservice:
+    build: ./CoreService/CoreService
+    ports:
+      - "5220:5220"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5220

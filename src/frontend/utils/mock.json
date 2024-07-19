@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "enterprise": "TechCorp",
+      "position": "Developer",
+      "email": "john.doe@techcorp.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "enterprise": "Innovate Inc.",
+      "position": "Project Manager",
+      "email": "jane.smith@innovate.com",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "enterprise": "DevSolutions",
+      "position": "Designer",
+      "email": "alice.johnson@devsolutions.com",
+      "password": "password789"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "name": "Como Manter a Esperança?",
+      "description": "O projeto visa oferecer apoio emocional e psicológico para pessoas que enfrentam desafios e dificuldades na vida. \n\n Como fazemos isso? \n\n Através de sessões de terapia online e grupos de apoio, fornecemos um espaço seguro para os participantes compartilharem suas experiências e obterem aconselhamento profissional. \n\n Além disso, oferecemos recursos educacionais sobre saúde mental e técnicas de autoajuda.",
+      "shortDescription": "Apoio emocional e psicológico para superar desafios e dificuldades.",
+      "status": "Em planejamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Saúde Mental",
+      "user": "John Doe",
+      "company": "TechCorp"
+    },
+    {
+      "id": 12,
+      "name": "Yacht de Yeux (Iate dos Olhos)",
+      "description": "Um programa de bem-estar que combina relaxamento e cuidados oculares. \n\n Como fazemos isso? \n\n Organizamos retiros em iates onde os participantes podem relaxar e receber tratamentos especializados para a saúde ocular, como exames de vista e terapias visuais. \n\n Nosso objetivo é promover a saúde ocular enquanto os participantes desfrutam de uma experiência luxuosa e relaxante.",
+      "shortDescription": "Retiros em iates focados na saúde ocular e bem-estar.",
+      "status": "Em planejamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Felicidade e Bem-Estar",
+      "user": "Jane Smith",
+      "company": "Innovate Inc."
+    },
+    {
+      "id": 13,
+      "name": "HealthTech Innovate",
+      "description": "HealthTech Innovate é o projeto que revolucionará a interseção entre saúde e tecnologia. Nosso propósito é criar soluções tecnológicas para capacitar profissionais de saúde e pacientes a alcançar melhores resultados de saúde e qualidade de vida. \n\nComo fazemos isso? \n\nImplementamos sistemas que integram dados de saúde incluindo registros médicos eletrônicos, dispositivos de monitoramento remoto, aplicativos de saúde e wearables para fornecer uma visão abrangente da saúde de um indivíduo. \n\nCom isso, conseguimos criar diagnósticos facilitados com base em dados, além de identificar mudanças nas condições de saúde à curto e longo prazo e salvar vidas.",
+      "shortDescription": "Revolucionando a interseção entre saúde e tecnologia e capacitando as pessoas a alcançar melhores resultados de saúde e qualidade de vida.",
+      "status": "Em andamento",
+      "macroTheme": "Tecnologia e Inovação - Saúde",
+      "microTheme": "Saúde Digital",
+      "user": "Darleti Negromonte",
+      "company": "Wacker Chemie AG"
+    },
+    {
+      "id": 19,
+      "name": "Corazon Community (Comunidade Coração)",
+      "description": "Um projeto comunitário voltado para a inclusão social e diversidade. \n\n Como fazemos isso? \n\n Criamos espaços comunitários onde as pessoas podem se reunir para participar de atividades culturais e educativas, promovendo a inclusão e a diversidade. \n\n Também oferecemos workshops e eventos para aumentar a conscientização sobre a importância da diversidade e inclusão.",
+      "shortDescription": "Promoção da inclusão social e diversidade através de atividades comunitárias.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Diversidade e Inclusão",
+      "user": "Alice Johnson",
+      "company": "DevSolutions"
+    },
+    {
+      "id": 21,
+      "name": "O Que Nos Move?",
+      "description": "Iniciativa para incentivar a atividade física e o bem-estar. \n\n Como fazemos isso? \n\n Oferecemos programas de exercícios personalizados e grupos de corrida, além de eventos esportivos comunitários. \n\n Nosso objetivo é ajudar as pessoas a encontrar prazer na atividade física e a manter um estilo de vida ativo e saudável.",
+      "shortDescription": "Incentivando a atividade física e o bem-estar.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Saúde Física",
+      "user": "John Doe",
+      "company": "TechCorp"
+    },
+    {
+      "id": 27,
+      "name": "AGIR (Ações Globais de Impacto e Resposta)",
+      "description": "Projeto global para responder a crises e promover o bem-estar. \n\n Como fazemos isso? \n\n Implementamos ações de emergência para fornecer suporte em crises humanitárias e desastres naturais. \n\n Além disso, trabalhamos em iniciativas de longo prazo para melhorar a qualidade de vida das comunidades afetadas.",
+      "shortDescription": "Respostas a crises e promoção do bem-estar global.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Felicidade e Bem-Estar",
+      "user": "Jane Smith",
+      "company": "Innovate Inc."
+    },
+    {
+      "id": 36,
+      "name": "Iniciativa Diversidade na Totvs",
+      "description": "Programa para promover a diversidade e inclusão na empresa Totvs. \n\n Como fazemos isso? \n\n Realizamos workshops e treinamentos para funcionários sobre diversidade e inclusão. \n\n Também implementamos políticas de contratação e promoção que valorizam a diversidade.",
+      "shortDescription": "Promoção da diversidade e inclusão na empresa Totvs.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Diversidade e Inclusão",
+      "user": "Alice Johnson",
+      "company": "DevSolutions"
+    },
+    {
+      "id": 40,
+      "name": "LíderesEmpatía+",
+      "description": "Desenvolvimento de líderes empáticos nas organizações. \n\n Como fazemos isso? \n\n Oferecemos treinamentos e workshops focados no desenvolvimento de habilidades de empatia e liderança compassiva. \n\n Nosso objetivo é criar líderes que valorizem o bem-estar de suas equipes e promovam um ambiente de trabalho saudável e inclusivo.",
+      "shortDescription": "Desenvolvimento de líderes empáticos e compassivos.",
+      "status": "Em planejamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Felicidade e Bem-Estar",
+      "user": "John Doe",
+      "company": "TechCorp"
+    },
+    {
+      "id": 46,
+      "name": "Manto da Mudança",
+      "description": "Iniciativa para apoiar a saúde mental durante períodos de mudança. \n\n Como fazemos isso? \n\n Oferecemos serviços de aconselhamento e recursos de autoajuda para indivíduos que estão passando por grandes mudanças na vida, como mudança de carreira ou mudanças pessoais significativas. \n\n Nosso objetivo é proporcionar suporte emocional e ferramentas práticas para ajudar as pessoas a lidar com a mudança.",
+      "shortDescription": "Apoio à saúde mental durante períodos de mudança.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Saúde Mental",
+      "user": "Jane Smith",
+      "company": "Innovate Inc."
+    },
+    {
+      "id": 50,
+      "name": "Ações de Felicidade na Pharmalife",
+      "description": "Programa de bem-estar para funcionários da Pharmalife. \n\n Como fazemos isso? \n\n Organizamos atividades de bem-estar, como sessões de meditação, yoga e eventos de bem-estar. \n\n Além disso, oferecemos recursos para ajudar os funcionários a gerenciar o estresse e manter um equilíbrio saudável entre vida pessoal e profissional.",
+      "shortDescription": "Promoção do bem-estar para funcionários da Pharmalife.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Felicidade e Bem-Estar",
+      "user": "Alice Johnson",
+      "company": "DevSolutions"
+    },
+    {
+      "id": 51,
+      "name": "O Que Faz Você Feliz?",
+      "description": "Projeto para descobrir e promover atividades que trazem felicidade. \n\n Como fazemos isso? \n\n Realizamos pesquisas e workshops para ajudar as pessoas a identificar atividades que promovem felicidade e bem-estar. \n\n Também oferecemos recursos e programas para integrar essas atividades na rotina diária.",
+      "shortDescription": "Descobrindo e promovendo atividades que trazem felicidade.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Felicidade e Bem-Estar",
+      "user": "John Doe",
+      "company": "TechCorp"
+    },
+    {
+      "id": 57,
+      "name": "Ações de Promoção da Saúde Mental em Hospitais Públicos",
+      "description": "Iniciativa para melhorar a saúde mental em hospitais públicos. \n\n Como fazemos isso? \n\n Implementamos programas de apoio psicológico e capacitação para profissionais de saúde mental em hospitais públicos. \n\n Nosso objetivo é melhorar o acesso a serviços de saúde mental de qualidade para a população.",
+      "shortDescription": "Melhoria da saúde mental em hospitais públicos.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Saúde Mental",
+      "user": "Jane Smith",
+      "company": "Innovate Inc."
+    },
+    {
+      "id": 70,
+      "name": "Iniciativa Diversidade na Vivo",
+      "description": "Programa para promover a diversidade e inclusão na Vivo. \n\n Como fazemos isso? \n\n Realizamos campanhas internas de conscientização e treinamentos sobre diversidade e inclusão. \n\n Também revisamos e atualizamos políticas internas para garantir um ambiente de trabalho inclusivo.",
+      "shortDescription": "Promoção da diversidade e inclusão na Vivo.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Diversidade e Inclusão",
+      "user": "Alice Johnson",
+      "company": "DevSolutions"
+    },
+    {
+      "id": 71,
+      "name": "Projeto Equidade na Vale",
+      "description": "Iniciativa para promover a equidade de gênero e inclusão na Vale. \n\n Como fazemos isso? \n\n Implementamos programas de mentoria e desenvolvimento de carreira focados em mulheres e minorias. \n\n Além disso, oferecemos workshops e treinamentos sobre equidade e inclusão.",
+      "shortDescription": "Promoção da equidade de gênero e inclusão na Vale.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Diversidade e Inclusão",
+      "user": "John Doe",
+      "company": "TechCorp"
+    },
+    {
+      "id": 87,
+      "name": "PACTO (Programa de Ação Comunitária e Transformação Organizacional)",
+      "description": "Projeto comunitário para promover a transformação organizacional e a saúde mental. \n\n Como fazemos isso? \n\n Trabalhamos com organizações para implementar programas de bem-estar e saúde mental, além de promover ações comunitárias que fortalecem os laços sociais. \n\n Nosso objetivo é criar ambientes de trabalho saudáveis e comunidades mais fortes.",
+      "shortDescription": "Transformação organizacional e saúde mental através de ações comunitárias.",
+      "status": "Em andamento",
+      "macroTheme": "Bem-Estar, Saúde e Felicidade",
+      "microTheme": "Saúde Mental",
+      "user": "Jane Smith",
+      "company": "Innovate Inc."
+    }
+  ],
+
+  "macroThemes": [
+    {
+      "id": 0,
+      "name": "Bem-Estar, Saúde e Felicidade"
+    },
+    {
+      "id": 6,
+      "name": "Produtividade e Competitividade"
+    },
+    {
+      "id": 13,
+      "name": "Conservação do Planeta"
+    },
+    {
+      "id": 27,
+      "name": "Redução do Impacto Ambiental"
+    },
+    {
+      "id": 44,
+      "name": "Integridade e Práticas Éticas"
+    }
+  ]
+}

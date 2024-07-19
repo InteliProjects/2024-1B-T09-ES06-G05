@@ -1,0 +1,47 @@
+# Arquivos gerados pelo Visual Studio
+.vs/
+bin/
+obj/
+
+# Arquivos temporários ou de build
+*.user
+*.vscode
+*.suo
+*.cache
+*.dll
+*.exe
+*.log
+*.bak
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.opendb
+*.sln.docstates
+*.sln
+*.pyc
+
+# Pacotes NuGet
+packages/
+*.nupkg
+*.paket.restore.log
+*.paket.references
+paket-files/
+paket-files/
+
+# Arquivos de configuração específicos de máquina
+appsettings.Development.json
+appsettings.Production.json
+*.publishsettings
+
+
+# Arquivos de backup e temporários
+*.bak
+*~
+*.swp
+.DS_Store
+
+# Diretório __pycache__
+__pycache__/

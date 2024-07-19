@@ -1,0 +1,11 @@
+Método,CódigoDoRequisito
+GetProjectsByMacroThemeId,REQ-04
+GetRecommendedProjects,REQ-03
+GetProject,REQ-05
+CreateProject,REQ-02
+GetSynergiesByProjectId,REQ-09
+AddRatingToProject,REQ-06
+DeleteProject,REQ-02
+CreateSynergy,REQ-07
+GetSynergyById,REQ-09
+GetUserById,REQ-08
